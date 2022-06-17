@@ -11,11 +11,13 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../../Adder"
+  "../../external/glfw/include"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
   "/home/vinove/Projects/cmake_0/out/build/Adder/CMakeFiles/adder.dir/DependInfo.cmake"
+  "/home/vinove/Projects/cmake_0/out/build/external/glfw/src/CMakeFiles/glfw.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

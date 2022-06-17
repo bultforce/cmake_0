@@ -459,3 +459,115 @@ Parsed CXX implicit link information from above output:
   implicit fwks: []
 
 
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/vinove/Projects/cmake_0/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_97ef0/fast && /usr/bin/make -f CMakeFiles/cmTC_97ef0.dir/build.make CMakeFiles/cmTC_97ef0.dir/build
+make[1]: Entering directory '/home/vinove/Projects/cmake_0/out/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_97ef0.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_97ef0.dir/CheckIncludeFile.c.o   -c /home/vinove/Projects/cmake_0/out/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_97ef0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_97ef0.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_97ef0.dir/CheckIncludeFile.c.o  -o cmTC_97ef0 
+make[1]: Leaving directory '/home/vinove/Projects/cmake_0/out/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/vinove/Projects/cmake_0/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_6ac52/fast && /usr/bin/make -f CMakeFiles/cmTC_6ac52.dir/build.make CMakeFiles/cmTC_6ac52.dir/build
+make[1]: Entering directory '/home/vinove/Projects/cmake_0/out/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6ac52.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_6ac52.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_6ac52
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6ac52.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_6ac52.dir/CheckFunctionExists.c.o  -o cmTC_6ac52  -lpthread 
+make[1]: Leaving directory '/home/vinove/Projects/cmake_0/out/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function XOpenDisplay exists in the /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so passed with the following output:
+Change Dir: /home/vinove/Projects/cmake_0/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d5999/fast && /usr/bin/make -f CMakeFiles/cmTC_d5999.dir/build.make CMakeFiles/cmTC_d5999.dir/build
+make[1]: Entering directory '/home/vinove/Projects/cmake_0/out/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d5999.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay   -o CMakeFiles/cmTC_d5999.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d5999
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d5999.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=XOpenDisplay    CMakeFiles/cmTC_d5999.dir/CheckFunctionExists.c.o  -o cmTC_d5999  /usr/lib/x86_64-linux-gnu/libX11.so /usr/lib/x86_64-linux-gnu/libXext.so 
+make[1]: Leaving directory '/home/vinove/Projects/cmake_0/out/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function gethostbyname exists passed with the following output:
+Change Dir: /home/vinove/Projects/cmake_0/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1dd5c/fast && /usr/bin/make -f CMakeFiles/cmTC_1dd5c.dir/build.make CMakeFiles/cmTC_1dd5c.dir/build
+make[1]: Entering directory '/home/vinove/Projects/cmake_0/out/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1dd5c.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname   -o CMakeFiles/cmTC_1dd5c.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_1dd5c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1dd5c.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=gethostbyname    CMakeFiles/cmTC_1dd5c.dir/CheckFunctionExists.c.o  -o cmTC_1dd5c 
+make[1]: Leaving directory '/home/vinove/Projects/cmake_0/out/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function connect exists passed with the following output:
+Change Dir: /home/vinove/Projects/cmake_0/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_da4f5/fast && /usr/bin/make -f CMakeFiles/cmTC_da4f5.dir/build.make CMakeFiles/cmTC_da4f5.dir/build
+make[1]: Entering directory '/home/vinove/Projects/cmake_0/out/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_da4f5.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=connect   -o CMakeFiles/cmTC_da4f5.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_da4f5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_da4f5.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=connect    CMakeFiles/cmTC_da4f5.dir/CheckFunctionExists.c.o  -o cmTC_da4f5 
+make[1]: Leaving directory '/home/vinove/Projects/cmake_0/out/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function remove exists passed with the following output:
+Change Dir: /home/vinove/Projects/cmake_0/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_828ca/fast && /usr/bin/make -f CMakeFiles/cmTC_828ca.dir/build.make CMakeFiles/cmTC_828ca.dir/build
+make[1]: Entering directory '/home/vinove/Projects/cmake_0/out/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_828ca.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=remove   -o CMakeFiles/cmTC_828ca.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_828ca
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_828ca.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=remove    CMakeFiles/cmTC_828ca.dir/CheckFunctionExists.c.o  -o cmTC_828ca 
+make[1]: Leaving directory '/home/vinove/Projects/cmake_0/out/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function shmat exists passed with the following output:
+Change Dir: /home/vinove/Projects/cmake_0/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1d62e/fast && /usr/bin/make -f CMakeFiles/cmTC_1d62e.dir/build.make CMakeFiles/cmTC_1d62e.dir/build
+make[1]: Entering directory '/home/vinove/Projects/cmake_0/out/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1d62e.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shmat   -o CMakeFiles/cmTC_1d62e.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_1d62e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1d62e.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=shmat    CMakeFiles/cmTC_1d62e.dir/CheckFunctionExists.c.o  -o cmTC_1d62e 
+make[1]: Leaving directory '/home/vinove/Projects/cmake_0/out/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function IceConnectionNumber exists in the ICE passed with the following output:
+Change Dir: /home/vinove/Projects/cmake_0/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_5fb3c/fast && /usr/bin/make -f CMakeFiles/cmTC_5fb3c.dir/build.make CMakeFiles/cmTC_5fb3c.dir/build
+make[1]: Entering directory '/home/vinove/Projects/cmake_0/out/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5fb3c.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber   -o CMakeFiles/cmTC_5fb3c.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_5fb3c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5fb3c.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=IceConnectionNumber    CMakeFiles/cmTC_5fb3c.dir/CheckFunctionExists.c.o  -o cmTC_5fb3c  -lICE 
+make[1]: Leaving directory '/home/vinove/Projects/cmake_0/out/build/CMakeFiles/CMakeTmp'
+
+
+

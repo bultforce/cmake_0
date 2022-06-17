@@ -6,5 +6,5 @@ CXX_FLAGS =
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/vinove/Projects/cmake_0/Adder 
+CXX_INCLUDES = -I/home/vinove/Projects/cmake_0/Adder -I/home/vinove/Projects/cmake_0/external/glfw/include 
 

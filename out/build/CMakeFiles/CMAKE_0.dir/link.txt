@@ -1,1 +1,1 @@
-/usr/bin/c++     CMakeFiles/CMAKE_0.dir/main.cpp.o  -o CMAKE_0   -L/home/vinove/Projects/cmake_0/Adder  -Wl,-rpath,/home/vinove/Projects/cmake_0/Adder Adder/libadder.a 
+/usr/bin/c++     CMakeFiles/CMAKE_0.dir/main.cpp.o  -o CMAKE_0   -L/home/vinove/Projects/cmake_0/Adder  -L/home/vinove/Projects/cmake_0/external/glfw/src  -Wl,-rpath,/home/vinove/Projects/cmake_0/Adder:/home/vinove/Projects/cmake_0/external/glfw/src Adder/libadder.a external/glfw/src/libglfw3.a -lpthread /usr/lib/x86_64-linux-gnu/librt.so -lm -ldl 
