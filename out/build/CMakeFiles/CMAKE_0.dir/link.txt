@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/CMAKE_0.dir/main.cpp.o  -o CMAKE_0   -L/home/vinove/Projects/cmake_0/Adder  -Wl,-rpath,/home/vinove/Projects/cmake_0/Adder Adder/libadder.a 
